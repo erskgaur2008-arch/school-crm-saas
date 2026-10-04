@@ -2,6 +2,7 @@
   "expo": {
     "name": "SchoolConnect",
     "slug": "schoolconnect",
+    "owner": "santraj96",
     "version": "2.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
