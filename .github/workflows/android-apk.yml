@@ -20,7 +20,7 @@ jobs:
       - name: Configure Expo project
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: npx eas-cli@latest init --non-interactive
+        run: npx eas-cli@latest init --account santraj96 --non-interactive
       - name: Build Android APK
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
